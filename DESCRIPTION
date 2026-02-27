@@ -1,0 +1,17 @@
+Package: qcsim
+Type: Package
+Title: Calculate detection power for clinical laboratory QC rules
+Version: 0.0.1
+Date: 2026-01-22
+Authors@R: person("Stephen", "Master", role = c("aut", "cre"), email = "masters@chop.edu")
+Description: Monte Carlo simulation of clinical laboratory quality control rules for single and multiplex assays.
+License: GPL (>= 3)
+Imports: 
+    doFuture,
+    doRNG,
+    foreach,
+    future,
+    Rcpp (>= 1.1.0)
+LinkingTo: Rcpp
+RoxygenNote: 7.3.3
+Encoding: UTF-8
