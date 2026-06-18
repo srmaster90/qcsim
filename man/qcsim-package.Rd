@@ -28,9 +28,6 @@ Maintainer: Stephen Master <masters@chop.edu>
   Unsihuay D and Master SR, 2026, in preparation
 }
 \keyword{ package }
-\seealso{
-  Optional links to other man pages
-}
 \examples{
   \donttest{
     # 3 SD rule
