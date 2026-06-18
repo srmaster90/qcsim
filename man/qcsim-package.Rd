@@ -1,6 +1,5 @@
 \name{qcsim-package}
 \alias{qcsim-package}
-\alias{qcsim}
 \docType{package}
 \title{
   Monte Carlo simulation for evaluating clinical laboratory QC rules
