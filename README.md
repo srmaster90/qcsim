@@ -4,3 +4,6 @@ To install using the *remotes* library (available from CRAN), use the following 
 remotes::install_github("srmaster90/qcsim")
 
 Documentation and examples for the *qcsim()* function are found in the man files (available via *help()*).
+
+[Note also that since this package contains C++, a compiler will be required for installation as for similar R packages]
+
