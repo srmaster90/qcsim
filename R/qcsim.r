@@ -302,9 +302,9 @@ qcsim <- function(numiter=200000,maxs=5,plex=1,levels=1,reps=1,xsize=51,sig=3,nu
     1 - (sum(results) / numiter)
   }
   if (precision) {
-    xvals <- 1+((1:iters)-1)*(maxs / (iters - 1))
+    xvals <- 1+((1:xsize)-1)*(maxs / (xsize - 1))
   } else {
-    xvals <- ((1:iters)-1)*(maxs / (iters-1))
+    xvals <- ((1:xsize)-1)*(maxs / (xsize - 1))
   }
   output <- list(x = xvals, y = as.numeric(qcresults), args = qcargs)
   class(output) <- "qcsim"
